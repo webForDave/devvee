@@ -2,6 +2,7 @@ import './App.css'
 import Header from './Components/Header'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom';
 import Navbar from './Components/Navbar'
+import About from './Components/About';
 
 function App() {
 
@@ -15,6 +16,10 @@ function App() {
 
             <Route exact path="/">
               <Header />
+            </Route>
+
+            <Route path="/about">
+              <About />
             </Route>
 
           </Switch>
