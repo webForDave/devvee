@@ -1,6 +1,6 @@
 import logo from '../assets/Images/heroLogo.png';
-import { BiLocationPlus, BiPhoneCall } from 'react-icons/bi';
-
+import { BiPhoneCall } from 'react-icons/bi';
+import { FaLocationArrow } from 'react-icons/fa';
 
 const Footer = () => {
     return (
@@ -19,7 +19,7 @@ const Footer = () => {
 
 
                     <div className="flex text-white py-[10px] lg:py-">
-                        <BiLocationPlus size={40} color='lime' className="w-[30px] lg:w-[80px]" />
+                        <FaLocationArrow size={40} color='lime' className="w-[30px] lg:w-[80px]" />
                             <h3 className=" text-[14px] font-light px-[3px]">ADDRESS <span className="block font-medium font-[cambria] text-[14px] lg:text-[20px]">BT5 Fudawa Etobaba Road <br /> Jos, Plateau State Nigeria</span> </h3>
                                     
                     </div>
