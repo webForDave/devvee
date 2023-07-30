@@ -2,6 +2,8 @@ import heroImage from "../assets/Images/header.jpeg";
 import heroLogo from '../assets/Images/heroLogo.png'; 
 import About from "./About";
 import Services from "./Services";
+import Testimonials from "./Testimonials";
+import Why from "./Why";
 
 const Header = () => {
     return (
@@ -18,8 +20,8 @@ const Header = () => {
 
             <About />
             <Services />
-        
-
+            <Why />
+            <Testimonials />
         </main>
     );
 }
