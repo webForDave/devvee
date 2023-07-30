@@ -4,9 +4,9 @@ import { BiDownload, BiPhone } from 'react-icons/bi';
 const About = () => {
     return (
         <section className="w-full h-auto py-[40px] lg:py-[60px] bg-[#100b08]">
-            <div className="w-[95%] h-auto mx-auto block lg:flex justify-center items-center">
+            <div className="w-[95%] h-auto mx-auto lg:flex justify-center items-center">
                     
-                        <video loop autoPlay src={v1} controls className="w-[95%] lg:w-[50%] mx-auto lg:mx-0"></video>
+                        <video loop autoPlay src={v1} controls className="w-full lg:w-[50%] mx-auto lg:mx-0"></video>
 
                     <div className="w-[95%] lg:w-[40%] mx-auto text-white font-[cambria] h-auto lg:p-[10px] lg:ml-[20px]">
                         <h2 className="text-[26px] lg:text-[40px] font-[Georgia]">Choose Fresh Beans -</h2>
@@ -17,7 +17,7 @@ const About = () => {
 
                             <div className="flex text-white">
                                 <BiDownload size={40} color='lime' className="w-[30px] lg:w-[80px]" />
-                                <h3 className=" text-[14px] font-light px-[5px]">DOWNLOAD <span className="block font-bold font-[cambria] text-[20px]">Pricelist</span> </h3>
+                                <h3 className=" text-[14px] font-light px-[5px]">DOWNLOAD <span className="block font-bold font-[cambria] text-[14px] lg:text-[20px]">Pricelist</span> </h3>
                                 
                             </div>
 

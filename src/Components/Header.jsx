@@ -1,6 +1,7 @@
 import heroImage from "../assets/Images/header.jpeg";
 import heroLogo from '../assets/Images/heroLogo.png'; 
 import About from "./About";
+import Services from "./Services";
 
 const Header = () => {
     return (
@@ -16,6 +17,7 @@ const Header = () => {
             </div>
 
             <About />
+            <Services />
         
 
         </main>
