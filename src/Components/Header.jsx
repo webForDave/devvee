@@ -1,6 +1,7 @@
 import heroImage from "../assets/Images/header.jpeg";
 import heroLogo from '../assets/Images/heroLogo.png'; 
 import About from "./About";
+import Chance from "./Chance";
 import Footer from "./Footer";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
@@ -22,6 +23,7 @@ const Header = () => {
             <About />
             <Services />
             <Why />
+            <Chance />
             <Testimonials />
             <Footer />
         </main>

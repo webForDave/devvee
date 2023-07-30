@@ -26,7 +26,7 @@ const Footer = () => {
 
                     <div className="flex text-white py-[10px] lg:py-0">
                         <BiPhoneCall size={40} color='lime' className="w-[30px] lg:w-[80px]" />
-                            <h3 className=" text-[14px] font-light px-[3px]">CONTACT US <span className="block font-medium font-[cambria] text-[14px] lg:text-[20px]">+2349077565788 <br /> dakinola54@gmail.com</span> </h3>
+                            <h3 className=" text-[14px] font-light px-[3px]">CONTACT US <span className="block font-medium font-[cambria] text-[14px] lg:text-[20px]"><a href="tel:+2349077565788">+2349077565788</a> <br /> dakinola54@gmail.com</span> </h3>
                                     
                     </div>
                 </div>
