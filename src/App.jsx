@@ -18,10 +18,6 @@ function App() {
               <Header />
             </Route>
 
-            <Route path="/about">
-              <About />
-            </Route>
-
           </Switch>
 
       </Router>

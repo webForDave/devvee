@@ -1,5 +1,6 @@
 import heroImage from "../assets/Images/header.jpeg";
 import heroLogo from '../assets/Images/heroLogo.png'; 
+import About from "./About";
 
 const Header = () => {
     return (
@@ -13,6 +14,8 @@ const Header = () => {
                 </div>
 
             </div>
+
+            <About />
         
 
         </main>
