@@ -1,8 +1,8 @@
 import './App.css'
-import Header from './Components/Header'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom';
 import Navbar from './Components/Navbar'
-import About from './Components/About';
+import Footer from './Components/Footer';
+import Main from './Components/Main';
 
 function App() {
 
@@ -15,10 +15,12 @@ function App() {
         <Switch>
 
             <Route exact path="/">
-              <Header />
+              <Main />
             </Route>
 
           </Switch>
+
+          <Footer />
 
       </Router>
     </>
